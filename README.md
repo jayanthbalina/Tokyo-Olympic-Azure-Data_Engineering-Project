@@ -1,4 +1,4 @@
-The Tokyo Olympics dataset you're working with could contain a wide range of data related to the athletes, events, medals, countries, and other relevant aspects of the 2020 Tokyo Olympics. Here's a detailed description of the type of data typically included in such a dataset and how it aligns with your Azure data engineering project:
+The Tokyo Olympics dataset that I am working with could contain a wide range of data related to the athletes, events, medals, countries, and other relevant aspects of the 2020 Tokyo Olympics. Here's a detailed description of the type of data typically included in such a dataset and how it aligns with your Azure data engineering project:
 
 1. Athletes Data
 Columns: Athlete ID, Athlete Name, Age, Gender, Nationality, Sport, Discipline.
@@ -18,7 +18,7 @@ Description: Data about each sport featured in the Tokyo Olympics, including the
 Data Flow in the Project
 Data Ingestion (GitHub to ADLS Gen2):
 
-Source: You used HTTP requests from an Azure Data Factory (ADF) pipeline to pull the raw dataset from GitHub, containing all or some of the data mentioned above.
+Source: I used HTTP requests from an Azure Data Factory (ADF) pipeline to pull the raw dataset from GitHub.
 Storage: The raw data was loaded into a Data Lake (ADLS Gen2), making it accessible for further processing.
 Data Cleaning and Transformation (Databricks):
 
@@ -34,5 +34,4 @@ Which country won the most medals?
 Who was the youngest gold medalist?
 Which sport had the highest number of participating athletes?
 Stakeholder Reporting:
-
 I justified my analysis by presenting insights based on the SQL queries you ran in Synapse, providing meaningful answers to stakeholder questions about the performance and statistics of the Tokyo Olympics.
